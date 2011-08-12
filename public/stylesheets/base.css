@@ -5,6 +5,16 @@ body {
   text-align: center;
 }
 
+a {
+  font-size: 14px;
+  color: #007;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #700;
+}
+
 p {
   margin-bottom: 0.5em;
 }
@@ -43,4 +53,12 @@ h1 {
 
 .invalid {
   color: red;
+}
+
+.links {
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  text-align: right;
+  top: 0;
 }
