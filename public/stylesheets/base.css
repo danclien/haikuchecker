@@ -30,6 +30,7 @@ input[type=text] {
   box-shadow: inset 1px 1px 3px #ccc;
   color: #444;
   font-size: 16px;
+  padding: 5px;
 }
 
 h1 {
@@ -43,7 +44,7 @@ h1 {
 
 .haiku-container {
   margin: auto;
-  width: 400px;
+  width: 450px;
 }
 
 .valid, .invalid {
