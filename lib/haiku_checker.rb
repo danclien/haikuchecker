@@ -11,7 +11,8 @@ module HaikuChecker
     end
     
     def check
-      @split = @line.downcase.split
+      #lower case, remove punctuation marks, and split
+      @split = @line.downcase.gsub(/[\?\.\!\,]/,'').split
       
       count_syllables
       case @word_counts.length
