@@ -6,9 +6,9 @@ class Haiku
   attr_accessor :line1_valid, :line2_valid, :line3_valid, :valid, :checked
 
   def initialize
-    @line1 = "Haikus are easy"
-    @line2 = "But sometimes they don't make sense"
-    @line3 = "Refrigerator"
+    @line1 = "An old silent pond,"
+    @line2 = "A frog jumps into the pond,"
+    @line3 = "Splash! Silence again."
     @checked = false;
   end
   
