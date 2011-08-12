@@ -1,0 +1,46 @@
+body {
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+input[type=text], input[type=submit] {
+  margin: 0.5em 0 0.5em 0;
+  width: 400px;
+}
+
+input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px 3px #ccc;
+  color: #444;
+  font-size: 16px;
+}
+
+h1 {
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5em;
+}
+
+.instructions {
+  color: #777;
+}
+
+.haiku-container {
+  margin: auto;
+  width: 400px;
+}
+
+.valid, .invalid {
+  border-top: 1px solid #444;
+  padding-top: 0.5em;
+}
+
+.invalid {
+  color: red;
+}

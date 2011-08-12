@@ -1,0 +1,21 @@
+<h1>Haiku Checker</h1>
+<p class="instructions">
+  Check to see if the haiku is in the form 5, 7, 5.
+</p>
+
+<form action="">
+  <div class="haiku-container">
+    <input type="text" name="line1" value="<%= @haiku.line1 %>"><br>
+    <input type="text" name="line2" value="<%= @haiku.line2 %>"><br>
+    <input type="text" name="line3" value="<%= @haiku.line3 %>"><br>
+  <input type="submit" value="Check">
+  </div>
+</form>
+
+<% if @haiku.checked %>
+  <% if @haiku.valid %>
+  <h2 class="valid">The haiku is valid</h2>
+  <% else %>
+  <h2 class="invalid">The haiku is not valid</h2>
+  <% end %>
+<% end %>
